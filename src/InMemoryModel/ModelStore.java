@@ -3,11 +3,10 @@ package InMemoryModel;
 import ModelElements.*;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
-public class ModelStore {
+
+public class ModelStore implements IModelChanger {
     public PoligonalModel Models;
     public Scene Scenes;
     public Flash Flashes;
@@ -27,7 +26,9 @@ public class ModelStore {
         return sceneList.get(Id + 1);
     }
 
-    public void NotifyChange(IModelChanger Changer) {
+    public void NotifyChange() {
 
     }
+
+
 }

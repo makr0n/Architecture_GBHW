@@ -1,5 +1,8 @@
 package ModelElements;
 
+import Stuff.Angle3D;
+import Stuff.Point3D;
+
 public class Camera {
     /*
     This Class defines Camera location and direction in the scene
