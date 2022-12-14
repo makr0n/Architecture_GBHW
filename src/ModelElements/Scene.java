@@ -23,11 +23,8 @@ public class Scene {
 
     public Type method2(Type Source, Type Number) {
         Type result = Source;
-        if (Source != null) {
-            return result;
-        } else {
-            return Number;
-        }
+        return result;
+
 
     }
 
