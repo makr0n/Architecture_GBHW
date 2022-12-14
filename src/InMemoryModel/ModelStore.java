@@ -5,7 +5,9 @@ import ModelElements.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/*
+    Класс хранилище трехмерных сцен и моделей  describe storage Scene and model elements
+ */
 public class ModelStore implements IModelChanger, IModelChangedObserver {
     public PoligonalModel Models;
     public Scene Scenes;

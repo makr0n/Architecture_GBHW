@@ -1,6 +1,7 @@
 package ModelElements;
 
 import java.lang.reflect.Type;
+
 /*
   Класс трехмерная сцена
  */

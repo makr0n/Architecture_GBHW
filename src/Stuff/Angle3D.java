@@ -1,6 +1,7 @@
 package Stuff;
+
 /*
-Класс угол
+Класс угол изменения положения
  */
 public class Angle3D {
     public double AngleX;
