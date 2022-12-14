@@ -2,17 +2,16 @@ package ModelElements;
 
 import Stuff.Angle3D;
 import Stuff.Point3D;
-
 import java.awt.*;
 
 /*
-This class defines scene lighting behavior
+Класс источник освещения
  */
 public class Flash {
-    public Point3D Location;// location of the light source
-    public Angle3D Angle; // angle of the light source
-    public Color Color; // color of the light source
-    public Float Power; // light power
+    public Point3D Location;// Местоположение источника света
+    public Angle3D Angle; // Угол источника света
+    public Color Color; // Цвет источника света
+    public Float Power; // Яркость освещения
 
     public Flash(Point3D Location, Angle3D Angle, Color Color, Float Power) {
         this.Location = Location;
@@ -21,11 +20,11 @@ public class Flash {
         this.Power = Power;
     }
 
-    public void Rotate(Angle3D Angle) { // this method used for  rotating light source
+    public void Rotate(Angle3D Angle) { // Метод для поворота источника света
 
     }
 
-    public void Move(Point3D Point) { // this method used for moving light source
+    public void Move(Point3D Point) { // Метод для перемещения источника
 
     }
 

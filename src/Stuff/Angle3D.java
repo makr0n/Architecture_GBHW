@@ -1,5 +1,7 @@
 package Stuff;
-
+/*
+Класс угол
+ */
 public class Angle3D {
     public double AngleX;
     public double AngleY;

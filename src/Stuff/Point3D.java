@@ -1,5 +1,7 @@
 package Stuff;
-
+/*
+Класс точка в пространстве
+ */
 public class Point3D {
     public double CoordinateX;
     public double CoordinateY;

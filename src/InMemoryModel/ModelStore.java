@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ModelStore implements IModelChanger {
+public class ModelStore implements IModelChanger, IModelChangedObserver {
     public PoligonalModel Models;
     public Scene Scenes;
     public Flash Flashes;
@@ -21,14 +21,21 @@ public class ModelStore implements IModelChanger {
         this.changeObservers = changeObservers;
     }
 
-    List<Scene> sceneList = new ArrayList<>();// добавлен для реализации метода GetScena, в реальной задаче сцены должны были бы храниться в БД.
+    List<Scene> sceneList = new ArrayList<>();// добавлен для реализации метода GetScena
+
     public Scene GetScena(int Id) { // Метод возвращает сцену по ее ID
+
         return sceneList.get(Id + 1);
     }
 
-    public void NotifyChange() {
+
+    @Override
+    public void NotifyChange(IModelChanger sender) {
 
     }
 
+    @Override
+    public void ApplyUpdateModel() {
 
+    }
 }

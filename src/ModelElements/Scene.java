@@ -2,12 +2,12 @@ package ModelElements;
 
 import java.lang.reflect.Type;
 /*
-  Scene Class used for creating and storing 3d scene with models and lighting
+  Класс трехмерная сцена
  */
 public class Scene {
-    public int Id; //Scene ID
-    public PoligonalModel Models; //Models that will be used in the scene
-    public Flash Flashes; //Light in the scene
+    public int Id; //Номер сцены
+    public PoligonalModel Models; //Модели используемые в сцене
+    public Flash Flashes; //Освещение сцены
 
 
     public Scene(int Id, PoligonalModel Models, Flash Flashes) {

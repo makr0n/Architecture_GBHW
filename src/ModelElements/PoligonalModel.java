@@ -1,7 +1,7 @@
 package ModelElements;
 
 /*
- PoligonalModel Class define polygonal model wih number of polygons and texture type
+ Класс полигональная модель
  */
 public class PoligonalModel {
     public Poligon Poligons ;
